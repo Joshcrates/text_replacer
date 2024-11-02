@@ -50,7 +50,7 @@ cool_file.close()
 #cool_split_text = replace_with_josh_other_method(split_text)
 #text = " ".join(cool_split_text)
 
-#sabrina_file = open("OtherCoolText.txt","w")
-#sabrina_file.write(text)
-#sabrina_file.close()
+#file = open("OtherCoolText.txt","w")
+#file.write(text)
+#file.close()
 
