@@ -20,7 +20,7 @@ def replace_with_josh(split_text):
 # This method replaces a word with Josh if the 
 # generated random number (1-100) has the passed-in
 # Josh index in it.
-def replace_with_josh_sabrina_method(split_text):
+def replace_with_josh_other_method(split_text):
     num_words = len(split_text)
     num_changed_words = 0
     cool_split_text = split_text
@@ -45,12 +45,12 @@ cool_file = open("CoolText.txt","w")
 cool_file.write(text)
 cool_file.close()
 
-# optional additional functionality. See replace_with_josh_sabrina_method()
+# optional additional functionality. See replace_with_josh_other_method()
 
-#cool_split_text = replace_with_josh_sabrina_method(split_text)
+#cool_split_text = replace_with_josh_other_method(split_text)
 #text = " ".join(cool_split_text)
 
-#sabrina_file = open("SabrinaText.txt","w")
+#sabrina_file = open("OtherCoolText.txt","w")
 #sabrina_file.write(text)
 #sabrina_file.close()
 
